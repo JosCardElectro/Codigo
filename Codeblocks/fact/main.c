@@ -9,7 +9,7 @@ int main()
     scanf("%d",&n);
     for(i=1,f=1;i<=n;i++)
     {
-    f=f*(i);
+    f=f*(i+1);
     }
     printf("El numero es:%d\n",f);
 
